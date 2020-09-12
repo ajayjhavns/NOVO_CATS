@@ -1,0 +1,299 @@
+/*
+===================
+HEADER & PAGE
+===================
+*/
+
+.gavdi-novo .sapMPage {
+    background-color: #fff;
+}
+
+.gavdi-novo header.sapMPageHeader {
+    height: 95px;
+    border-bottom: 2px #eeeeee solid;
+}
+
+.gavdi-novo .sapMPageEnableScrolling {
+    margin-top: 50px;
+}
+
+.gavdi-novo .sapMBar {
+    height: 95px;
+}
+
+.gavdi-novo .sapMInputBaseContentWrapper {
+    border-radius: 10px;
+}
+
+.gavdi-novo .sapMBarContainer .sapMText {
+    padding-top: 2.5rem;
+    color: #009fda;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .gavdi-novo .sapMBarContainer .sapMText {
+        padding-top: 0.5rem !important;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .gavdi-novo .sapMBarContainer .sapMText {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .gavdi-novo .sapMBar {
+        height: 55px;
+    }
+    .gavdi-novo .sapMBarContainer .sapMText {
+        padding-top: 1.0rem !important;
+        color: #009fda;
+        font-weight: bold;
+    }
+    .gavdi-novo header.sapMPageHeader {
+        height: 50px;
+        border-bottom: 0;
+    }
+    .gavdi-novo .sapMBarContainer .sapMImg {
+        padding: 0.6rem;
+        height: 40px;
+    }
+    .gavdi-novo .sapMPageEnableScrolling {
+        margin-top: 0;
+    }
+}
+
+.gavdi-novo .sapMPageHeader::before {
+    border-top: 0.25rem solid #009fda;
+}
+
+.gavdi-novo .sapMBarContainer.sapMBarPH {
+    height: auto;
+}
+
+.gavdi-novo .sapMBarContainer .sapMImg {
+    padding: 0.6rem;
+}
+
+
+/*
+===================
+ASSORTED UI OBJECTS
+===================
+*/
+
+.gavdi-novo input,
+.gavdi-novo input:focus,
+.gavdi-novo form,
+.gavdi-novo form:focus {
+    border-radius: 12px;
+}
+
+.gavdi-novo .sapUiCalItemSel {
+    background-color: #009fda;
+}
+
+.gavdi-novo .sapMComboBoxTextField {
+    border-radius: 10px;
+}
+
+.gavdi-novo .sapMSlt {
+    border-radius: 10px;
+}
+
+.gavdi-novo .sapMMessageToast {
+    background: #D47600;
+    border-radius: 10px;
+}
+
+
+/* Message Popover */
+
+.gavdi-novo .sapMMsgView .sapMMsgViewTitleText {
+    font-size: 1.125rem;
+    font-weight: normal;
+}
+
+.gavdi-novo .sapMDialog.sapMMessageDialog {
+    border-radius: 10px;
+}
+
+
+/*
+===================
+FOOTER
+===================
+*/
+
+.gavdi-novo footer .sapMIBar.sapMFooter-CTX {
+    background-color: #fff;
+}
+
+.gavdi-novo footer .sapMIBar-CTX.sapMFooter-CTX.sapMTB {
+    border-top: 2px #eeeeee solid;
+}
+
+.gavdi-novo .sapMPageFooter .sapMBar {
+    height: 50px;
+}
+
+.gavdi-novo .sapMPageFooter .sapMBarContainer .sapMText {
+    padding-top: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .gavdi-novo .sapMPageFooter .sapMBarContainer .sapMText {
+        padding-top: 10px !important;
+    }
+}
+
+.gavdi-novo .sapMFooter-CTX span.sapMBtnInner.sapMBtnEmphasized {
+    background-color: #009de0;
+    border-color: #008bc7;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+
+/* List footer */
+
+.gavdi-novo .sapMListFtr {
+    height: 2rem;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    background-color: #f7f7f7;
+    color: #333333;
+    padding: 0 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: end;
+}
+
+
+/*
+===================
+BUTTONS
+===================
+*/
+
+.gavdi-novo .sapMBtnInner,
+.gavdi-novo span.sapMBtnInner.sapMBtnAccept,
+.gavdi-novo span.sapMBtnInner.sapMBtnDefault,
+.gavdi-novo span.sapMBtnInner.sapMBtnReject,
+.gavdi-novo .sapMBtn,
+.gavdi-novo .sapMBtnBase,
+.gavdi-novo .sapMBtnText,
+.gavdi-novo .sapMBtnContent {
+    background: transparent;
+    border: none;
+    text-shadow: initial;
+}
+
+.gavdi-novo .sapMBtnContent {
+    font-family: "Verdana";
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.gavdi-novo span.sapMBtnInner.sapMBtnAccept,
+.gavdi-novo span.sapMBtnInner.sapMBtnDefault,
+.gavdi-novo span.sapMBtnInner.sapMBtnReject {
+    background-color: #009fda;
+    border-radius: 10px;
+}
+
+.gavdi-novo span.sapMBtnInner.sapMToggleBtnPressed {
+    background-color: #00679e;
+}
+
+.gavdi-novo .sapMBtn:hover>.sapMBtnHoverable.sapMBtnAccept:not(.sapMBtnActive),
+.gavdi-novo .sapMBtn:hover>.sapMBtnHoverable.sapMBtnDefault:not(.sapMBtnActive),
+.gavdi-novo .sapMBtn:hover>.sapMBtnHoverable.sapMBtnReject:not(.sapMBtnActive) {
+    background-color: #74bdd8;
+}
+
+.gavdi-novo .btnWhiteBg {
+    background-color: #fff;
+    border-color: #fff;
+    color: #333333;
+}
+
+
+/*
+===================
+TABLE
+===================
+*/
+
+.gavdi-novo .sapMListTbl {
+    min-width: 800px;
+}
+
+.gavdi-novo .sapMListTbl .sapMTableTH {
+    background: #009fda;
+    border-bottom: 1px solid #e5e5e5;
+    border-color: #009fda;
+}
+
+.gavdi-novo .sapMListTbl .sapMTableTH span {
+    color: #fff;
+}
+
+.gavdi-novo .sapMListTblCell {
+    vertical-align: middle;
+}
+
+.gavdi-novo .sapMITBText {
+    width: 100%;
+}
+
+
+/*
+===================
+FILTERS
+===================
+*/
+
+.gavdi-novo .sapMITBFilterPositive {
+    border-color: #009fda;
+    color: #009fda;
+}
+
+.gavdi-novo .sapMITBSelected .sapMITBFilterPositive {
+    background: #009fda;
+    color: #fff;
+}
+
+.gavdi-novo .sapMITBSelected.sapMITBFilterPositive>.sapMITBContentArrow {
+    border-bottom-color: #009fda;
+}
+
+
+/*
+===================
+CALENDAR
+===================
+*/
+
+.gavdi-novo .sapUiCalItemNow>.sapUiCalItemText {
+    border: 0.125rem solid #E64A0E;
+}
+
+.gavdi-novo .sapUiCalItemWeekEnd {
+    background-color: #E0DED8;
+}
+
+.gavdi-novo .sapUiCalHead>.sapUiCalHeadB,
+.sapUiCalCancel,
+html.sap-desktop .sapUiCalHead>.sapUiCalHeadB:hover,
+html.sap-desktop .sapUiCalHead>.sapUiCalHeadB:focus {
+    color: #333333;
+}
