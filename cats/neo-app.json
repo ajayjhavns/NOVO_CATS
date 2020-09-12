@@ -1,0 +1,56 @@
+{
+	"welcomeFile": "/webapp/index.html",
+	"cacheControl": [{
+		"maxAge": 0
+	}],
+	"routes": [{
+			"path": "/resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"preferLocal": true,
+				"entryPath": "/resources"
+			},
+			"description": "SAPUI5 Resources"
+		}, {
+			"path": "/test-resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/test-resources"
+			},
+			"description": "SAPUI5 Test Resources"
+		}, {
+			"path": "/novo_cat_java_be-0.0.1/",
+			"target": {
+				"type": "destination",
+				"name": "javacats"
+			},
+			"description": "Novo Nordisk PUC service"
+		}, {
+			"path": "/resources/NovoTheme",
+			"target": {
+				"type": "application",
+				"name": "NovoTheme",
+				"entryPath": "/"
+			},
+			"description": "This is the Novo Theme"
+		}, {
+			"path": "/sap/opu/odata",
+			"target": {
+				"type": "destination",
+				"name": "ERP_PP",
+				"entryPath": "/sap/opu/odata"
+			},
+			"description": "ERP_PP"
+		}, {
+			"path": "/services/userapi",
+			"target": {
+				"type": "service",
+				"name": "userapi"
+			}
+		}
+
+	],
+	"sendWelcomeFileRedirect": true
+}

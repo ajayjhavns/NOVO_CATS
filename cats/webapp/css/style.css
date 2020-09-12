@@ -1,0 +1,296 @@
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  /* message popover back btn */
+  
+  .gavdi-cats .sapMMsgViewBackBtn span {
+      background-color: transparent !important;
+  }
+  
+  .gavdi-cats .sapMDialogError>header.sapMDialogTitle .sapMDialogIcon.sapUiIcon {
+      color: #cc1919;
+      padding-top: 3px;
+  }
+  /* List footer */
+  
+  .sapUiCalWeekNum {
+      color: #fff !important;
+  }
+  
+  .gavdi-table .gavdi-toolbar .sapMInputBaseIconContainer {
+      display: none;
+  }
+  
+  .gavdi-cats .sapMListFtr {
+      height: 2rem;
+      box-sizing: border-box;
+      -webkit-text-size-adjust: none;
+      font-size: 1.0rem;
+      line-height: 2rem;
+      background-color: #f7f7f7;
+      color: #333333;
+      padding: 0 1.5rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: center !important;
+  }
+  /* White button with dark blue color */
+  
+  .gavdi-cats .sapMFooter-CTX span.sapMBtnInner .gavdi-btn-white span,
+  .gavdi-cats .sapMIBar-CTX.sapMFooter-CTX .sapMBtnInner .gavdi-btn-white span > .sapMBtnIcon {
+      background-color: #fff;
+      border-color: #009fda;
+      color: #009fda;
+      font-weight: bold;
+      font-size: large;
+      text-shadow: none;
+  }
+  
+  .gavdi-cats .zbtnIcon:active span,
+  .gavdi-cats .zbtnIcon:hover span,
+  .gavdi-cats .zbtnIcon:focus span,
+  .gavdi-cats .zbtnIcon:visited span {
+      border-radius: 0 !important;
+      background-color: transparent !important;
+      border-color: transparent;
+  }
+  
+  .gavdi-cats .zbtnIcon {
+      background-color: transparent !important;
+      margin-bottom: -20px;
+  }
+  
+  .gavdi-cats .zbtnIcon span img {
+      height: 20px !important;
+      width: 20px !important;
+  }
+  
+  .gavdi-cats .zbtnIcon span {
+      border: none !important;
+      background-image: none;
+  }
+  
+  .gavdi-cats .deleteIcon span {
+      border-radius: 12px;
+      font-weight: bold;
+      /*border: 1px solid #bfbfbf;
+  	width:20px;*/
+      color: #666666;
+      background-color: transparent !important;
+      background: transparent;
+      background-image: initial;
+      background-position-x: initial;
+      background-position-y: initial;
+      background-size: initial;
+      background-repeat-x: initial;
+      background-repeat-y: initial;
+      background-attachment: initial;
+      background-origin: initial;
+      background-clip: initial;
+      background-color: transparent;
+  }
+  
+  .gavdi-cats .sapUiIcon {
+      display: block;
+  }
+  
+  .gavdi-cats .ztable thead span {
+      color: #fff !important;
+      font-size: 13px !important;
+  }
+  /* padding in table */
+  
+  .gavdi-cats .sapMListTblCell {
+      padding: .375rem .2rem;
+  }
+  
+  .gavdi-cats .sapMTB-Transparent-CTX > .sapMTitleTB.sapMTitleStyleAuto {
+      font-size: 1.0rem;
+  }
+  
+  .gavdi-cats .zbtnNoColor:active span,
+  .gavdi-cats .zbtnNoColor:hover span,
+  .gavdi-cats .zbtnNoColor:focus span,
+  .gavdi-cats .zbtnNoColor:visited span {
+      border-radius: 0 !important;
+      background-color: transparent !important;
+      border-color: #fff;
+      color: #333333 !important;
+  }
+  
+  .gavdi-cats .zbtnNoColor span {
+      border-radius: 0 !important;
+      background-color: transparent !important;
+      border-color: #fff;
+  }
+  
+  .gavdi-cats .zbtnNoColor {
+      z-index: 100;
+  }
+  
+  .gavdi-cats .zbtnNoColor.rightButton {
+      position: relative !important;
+  }
+  
+  .gavdi-cats .zbtnNoColor.caixinhaDoCaralho .sapMInputBaseContentWrapper.sapMInputBaseDisabledWrapper {
+      min-width: 0 !important;
+  }
+  
+  .gavdi-cats .zmtb {
+      border-bottom-style: none !important;
+  }
+  
+  .gavdi-cats .ztable thead span {
+      color: #fff !important;
+      font-size: 1.0rem !important;
+  }
+  
+  .gavdi-cats .gavdi-table thead .sapMColumnHeader {
+      padding: 0px !important;
+  }
+  /* padding in table */
+  
+  .gavdi-cats .sapMListTblCell {
+      padding: .375rem .2rem;
+  }
+  
+  .gavdi-cats .sapMTB-Transparent-CTX > .sapMTitleTB.sapMTitleStyleAuto {
+      font-size: 1.0rem;
+  }
+  
+  .gavdi-cats .zbtnNoColor:active span,
+  .gavdi-cats .zbtnNoColor:hover span,
+  .gavdi-cats .zbtnNoColor:focus span,
+  .gavdi-cats .zbtnNoColor:visited span {
+      border-radius: 0 !important;
+      background-color: initial !important;
+      border-color: #fff;
+      color: #333333 !important;
+  }
+  
+  .gavdi-cats .gavdi-listitem-noborder {
+      border-bottom: none;
+      border-top: none;
+      height: 0px;
+  }
+  
+  .gavdi-cats .gavdi-text-grey {
+      color: #666666;
+  }
+  
+  .gavdi-cats .gavdi-txt-small {
+      font-size: medium !important;
+      color: #001965 !important;
+  }
+  
+  .gavdi-cats .gavdi-txt-large {
+      font-size: x-large !important;
+      color: #001965 !important;
+  }
+  /**** REPORTING *****/
+  
+  .gavdi-cats .reportingTotal {
+      fill: rgb(51, 51, 51);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+  }
+  
+  .gavdi-cats .reportingTab {
+      fill: rgb(51, 51, 51);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+      margin-bottom: 20px;
+      display: block;
+  }
+  
+  .gavdi-cats .reportingChartWideBox {
+      width: 100%;
+  }
+  
+  .gavdi-cats .reportingChartBox {
+      width: 50%;
+  }
+  
+  @media only screen and (max-width: 900px) {
+      .gavdi-cats .reportingChartBox {
+          width: 100%;
+      }
+      .gavdi-cats .reportingChartWideBox {
+          width: 100%;
+      }
+      .gavdi-cats .reportingTab {
+          margin-bottom: 10px;
+          margin-top: 10px;
+          margin-left: 10px;
+      }
+  }
+  
+  .gavdi-cats .reportingDatePicker {
+      padding-left: 55px;
+      padding-right: 5px;
+  }
+  
+  .gavdi-cats .reportingSelect {
+      margin-left: 14px;
+  }
+  
+  @media only screen and (max-width: 900px) {
+      .gavdi-cats .reportingSelect {
+          width: 199px !important;
+      }
+  }
+  
+  .gavdi-cats .reportingToggle .span.sapMBtnContent {
+      background-color: #f7f7f7;
+  }
+  
+  .gavdi-cats .sapMSegB {
+      padding-left: 16px;
+  }
+  
+  .gavdi-cats .gavdi-boxmerdosa,
+  .gavdi-cats .gavdi-boxmerdosa li,
+  .gavdi-cats .gavdi-boxmerdosa li div {
+      border: 0px !important;
+  }
+  
+  .reportingYearSelect {
+      padding-left: initial;
+      padding-right: initial;
+  }
+  
+  .reportingMonthSelect {
+      padding-right: 1px;
+  }
+  
+  .reportingLabel {
+      padding-right: 3px;
+  }
+  
+  .reportingDiv {
+      width: 25%;
+  }
+  
+  @media screen and (max-width: 1200px) {
+      .reportingDiv {
+          display: block;
+          width: 100%;
+      }
+  }
+  
+  .reportingExecuteButton {
+      display: block;
+  }
+  /* PIE TO THE LEFT   
+  .gavdi-cats .v-m-plot {
+transform:translate(-40px, 1px);
+}
+
+.gavdi-cats .v-groups v-label .viz-legend-valueLabel {
+transform:translate(-90px, 0) !important;
+}
+
+*/

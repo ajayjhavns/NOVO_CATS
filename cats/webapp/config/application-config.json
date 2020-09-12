@@ -1,0 +1,38 @@
+{
+	"defaultActType": "RPM",
+	"defaultActTypeKey": "RPM",
+	"defaultActName": "General",
+	"timeSheetConfig": {
+		"employee": "name",
+		"dateFormat": "toLocaleDateString()",
+		"dateSelector": "w",
+		"showDefaultActivityType": true,
+		"showSkillType": false,
+		"showDecimals": true,
+		"weeksBackInTime": 2,
+		"weeksForwardInTime": 4,
+		"maxHours": 24,
+		"trialPrefix": "Trial Id: "
+	},
+	"actionSave": "save",
+	"dateSelector": "w/y",
+	"hoursSeparator": {
+		"sep1": ".",
+		"sep2": ","
+	},
+	"batchCalls": false,
+	"cats": {
+		"new": "new",
+		"upd": "update",
+		"none": "none",
+		"del": "delete",
+		"empty": "empty"
+	},
+	"help": {
+		"timesheet": "https://novonordisk.sharepoint.com/sites/TimeRegistration",
+		"reporting": "https://novonordisk.sharepoint.com/sites/TimeRegistration"
+	},
+	"skilltypeApp": {
+		"name": "https://timemgr-"
+	}
+}
