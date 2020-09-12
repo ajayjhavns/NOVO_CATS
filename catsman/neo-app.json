@@ -1,0 +1,53 @@
+{
+	"welcomeFile": "/webapp/index.html",
+	"routes": [{
+		"path": "/resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/resources"
+		},
+		"description": "SAPUI5 Resources"
+	}, {
+		"path": "/test-resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/test-resources"
+		},
+		"description": "SAPUI5 Test Resources"
+	}, {
+		"path": "/resources/novores",
+		"target": {
+			"type": "application",
+			"name": "novores",
+			"entryPath": "/com/nn/resources/"
+		},
+		"description": "Novo resources library"
+	}, {
+		"path": "/resources/gavdilib",
+		"target": {
+			"type": "application",
+			"name": "gavdilib",
+			"entryPath": "/com/gavdi/labs/ui5"
+		},
+		"description": "Gavdi Labs control library"
+	}, {
+		"path": "/sap/opu/odata",
+		"target": {
+			"type": "destination",
+			"name": "ERP_PP",
+			"entryPath": "/sap/opu/odata"
+		},
+		"description": "ERP_PP"
+	}, {
+		"path": "/resources/NovoTheme",
+		"target": {
+			"type": "application",
+			"name": "NovoTheme",
+			"entryPath": "/"
+		},
+		"description": "This is the Novo Theme"
+	}],
+	"sendWelcomeFileRedirect": true
+}

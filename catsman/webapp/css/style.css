@@ -1,0 +1,87 @@
+ @media(min-width:560px) {
+     .gavdi-catsman .gavdi-employee-list {
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+     }
+ }
+ 
+ .gavdi-catsman .gavdi-employee-list {
+     font-family: "Verdana";
+     font-size: 0.8rem;
+     background-color: #ffffff;
+ }
+ 
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card {
+     border: 1px #e0ded8 solid;
+     transition: background-color 500ms ease;
+     background-color: transparent;
+     border-radius: 15px;
+     padding: 12px;
+     margin: 12px;
+     width: 150px;
+     height: 150px;
+     position: relative;
+ }
+ 
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card:hover {
+     background-color: #dedede;
+ }
+ 
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card .gavdi-user-id {
+     font-weight: bold;
+     color: #001965;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     margin-bottom: 5px;
+ }
+ 
+ .gavdi-catsman .gavdi-employee-list .gavdi-mployee-card .gavdi-skill-id,
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card .gavdi-skill-name {
+     font-style: italic;
+ }
+ 
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card .gavdi-lower-part {
+     position: absolute;
+     bottom: 12px;
+ }
+ 
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card .sapMBtnInner,
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card .sapMBtn,
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card .sapMBtnBase,
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card .sapMBtnText,
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card .sapMBtnContent {
+     height: inherit;
+     margin: inherit;
+     padding: inherit;
+     border: none;
+     background-color: inherit;
+     display: block;
+     overflow: inherit;
+     text-overflow: inherit;
+     white-space: inherit;
+     vertical-align: initial;
+     line-height: inherit;
+     text-shadow: initial;
+ }
+ 
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card .sapMBtnContent {
+     font-family: "Verdana";
+     font-size: 0.8rem;
+     cursor: pointer;
+     background-color: #009fda;
+     color: #ffffff;
+     text-align: center;
+     border-radius: 5px;
+     width: 50px;
+     margin-top: 5px;
+     padding: 3px;
+ }
+ 
+ .gavdi-catsman .gavdi-employee-list .gavdi-employee-card .sapMBtnContent:hover {
+     background-color: rgba(0, 161, 219, 0.55);
+ }
+ 
+ .gavdi-catsman .gavdi-skill-id {
+     display: none;
+ }

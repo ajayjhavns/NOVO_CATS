@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ResponsivePopover contentHeight="600px" contentWidth="600px" title="{i18n>tit-orgunit-selection}" class="sapUiPopupWithPadding" placement="Auto">
+		<beginButton></beginButton>
+		<beginButton>
+			<Button type="Reject" text="Reset" press="onResetOrgSelection"/>
+		</beginButton>
+		<endButton>
+			<Button type="Emphasized" text="Select" press="onSelectOrgUnit"/>
+		</endButton>
+		<content>
+			<Tree id="Tree" items="{OrgUnits>/}" mode="SingleSelect" includeItemInSelection="true">
+				<StandardTreeItem title="{OrgUnits>text}"/>
+			</Tree>
+		</content>
+	</ResponsivePopover>
+</core:FragmentDefinition>

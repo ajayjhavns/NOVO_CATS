@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns:gavdi="com.nn.cats.manager.controller.custom"
+	xmlns:data="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" xmlns="sap.m">
+	<HBox width="100%" class="teamBar">
+		<Title text="{viewModel>/currentOrgUnitText}"/>
+		<Text class="sapUiTinyMarginBegin" text="| {i18n>txt-emps-visible}: {viewModel>/employeesVisible}"/>
+	</HBox>
+	<gavdi:EmployeeCardList id="empCardList" cards="{Team>/}">
+		<gavdi:cards>
+			<gavdi:EmployeeCard fullName="{Team>Name}" objId="{Team>Objid}" userId="{path: 'Team>Usrid', formatter: '.formatter.normalizeUsrid'}"
+				skillID="{path: 'Team>SkillId', formatter: '.formatter.normalizeSkill'}"
+				skillName="{path: 'Team>ToSkill/Stext' , formatter: '.formatter.normalizeSkill'}" clicked=" onCardBtnEditClicked"></gavdi:EmployeeCard>
+		</gavdi:cards>
+	</gavdi:EmployeeCardList>
+</core:FragmentDefinition>
