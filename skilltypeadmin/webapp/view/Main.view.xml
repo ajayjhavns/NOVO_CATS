@@ -1,0 +1,42 @@
+<mvc:View controllerName="com.nn.cats.SkillTypeAdmin.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<App id="idAppControl" class="gavdi-SkillTypeAdmin">
+		<pages>
+			<Page title="{i18n>mainView.title}" showHeader="true" showNavButton="false" showSubHeader="true" class="sapUiContentPadding">
+				<customHeader>
+					<Bar id="barList">
+						<contentLeft>
+							<Image src="/resources/NovoTheme/img/logo_nn.png"></Image>
+						</contentLeft>
+						<contentMiddle>
+							<Text text="{i18n>mainView.title}"></Text>
+						</contentMiddle>
+						<contentRight>
+							<Button text="{i18n>mainView.btnHome}" type="Accept" icon="sap-icon://home" press="onNavHome" class="sapUiTinyMarginTop"/>
+						</contentRight>
+					</Bar>
+				</customHeader>
+				<subHeader>
+					<Toolbar>
+						<SearchField id="searchField" placeholder="{i18n>mainView.searchField}" maxLength="20" width="100%" showSearchButton="false"
+							search="onSearch" liveChange="onSearch"/>
+					</Toolbar>
+				</subHeader>
+				<content>
+					<List id="list" headerText="Skills" items="{ path : 'Skills>/', sorter : { path : 'Stext' } }" mode="SingleSelectLeft"
+						selectionChange="onSelectedItem" growing="true" growingScrollToLoad="true" growingThreshold="100">
+						<StandardListItem title="{Skills>Stext}" description="{Skills>Objid}" iconDensityAware="false" iconInset="false"/>
+					</List>
+				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer/>
+						<Button text="{i18n>mainView.btnCreate}" type="Accept" press="onCreate"/>
+						<Button text="{i18n>mainView.btnDelete}" type="Reject" press="onDelete"/>
+						<Button text="{i18n>mainView.btnUpdate}" press="onUpdate"/>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
